@@ -1,0 +1,109 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+body,html {
+    width:100vw;
+    height:100vh;
+}
+
+body {
+    background:#121216;
+    color:#bbb;
+}
+
+h1 {
+    text-align:center;
+}
+
+hr {
+    margin:20px 0;
+}
+
+.div1 {
+    width:300px;
+    margin: 0 auto;
+    height:200px;
+    background:linear-gradient(45deg,#291212,#122912,#121229);
+    position:relative;
+    outline: blue 2px solid;
+}
+
+.div2 {
+    position:absolute;
+    width:200px;
+    height:100px;
+    bottom:20px;
+    right:0px;
+    outline: red 2px solid;;
+}
+
+h3 {
+    max-width:200px;
+}
+
+h2 {
+
+}
+
+.calosc {
+    width:500px;
+    height:300px;
+    margin:50px auto;
+    outline: 10px solid #122912;
+    position:relative;
+    overflow:hidden;
+}
+
+.karta {
+    width:150px;
+    height:200px;
+    border-radius:20px;
+    z-index:1;
+    position:absolute;
+    outline:white 2px solid;
+    background:url(karta.jpg);
+    background-size: 100%;
+    bottom:50px;
+    transition:transform 0.2s ease-in-out, filter 0.2s ease-in-out;
+    filter:opacity(0.8);
+    box-shadow: -10px 10px 10px black;
+}
+
+.karta:hover {
+    z-index:10;
+    transform: scale(1.2);
+    filter:opacity(1);
+}
+
+.div3 {
+    z-index:1;
+    transform:rotate(-36deg);
+    left:0px;
+}
+.div4 {
+    z-index:2;
+    transform:rotate(-24deg);
+    left:60px;
+}
+.div5 {
+    z-index:3;
+    transform:rotate(-12deg);
+    left:120px;
+}
+.div6 {
+    z-index:4;
+    transform:rotate(0deg);
+    left:180px;
+}
+.div7 {
+    z-index:5;
+    transform:rotate(12deg);
+    left:240px;
+}
+.div8 {
+    z-index:6;
+    transform:rotate(24deg);
+    left:320px;
+}
